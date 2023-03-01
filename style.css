@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+  width: 100%;    
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 700px) {
+    .container{
+        flex-wrap: wrap;
+    }
+}
+
+.card{
+    margin: 1em;
+    padding: 5px;
+    width: 50%;
+    height: auto;
+    /*border: 1px solid black;*/
+    border-radius: 5px;
+    box-shadow: 7px 11px 43px -8px rgba(0,0,0,0.75);
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    transition: 0.3s ease-in-out;
+    transform:scale(1.1);
+}
+
+.product{
+    max-width: 100%;
+}
+.product img{
+    width: 100%;
+    background-size: cover;
+}
+
+.description{
+    display: flex;
+    padding: 1rem;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    display: inline-block;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(155, 135, 222, 0.75);
+    cursor: pointer;
+}
+
+.parrafo{
+
+}
